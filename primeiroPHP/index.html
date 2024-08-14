@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Primeiro PHP</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<h1>Contato</h1>
+		<form action="mostrar_contato.php" method="get">
+			<label for="nome">Nome:</label>
+			<input type="text" name="nome" id="nome">
+			<br><br>
+			<label for="sobrenome">Sobrenome:</label>
+			<input type="text" name="sobrenome" id="sobrenome">
+			<br><br>
+			<label for="cpf">CPF:</label>
+			<input type="text" name="cpf" id="cpf">
+			<br><br>
+			<input type="submit" class="boton">
+		</form>
+	<style>
+		form {
+			border: 4px solid black;
+			width: 200px;
+			border-radius: 5%;
+			height: 200px;
+			background-color: grey;
+		}
+
+		body {
+			padding-left: 40%;
+			padding-top: 10%;
+			overflow: hidden;
+		    background-color: rgb(25, 27, 31);
+			color: white;
+		}
+
+		.boton{
+			background-color: black;
+			color: white;
+			margin-left: 60px;
+		}
+
+		input{
+			margin-left: 5px;
+		}
+
+	
+	</style>
+	</body>
+</html>
